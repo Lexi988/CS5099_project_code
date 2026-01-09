@@ -1,0 +1,318 @@
+commit 024079b361e49bbab41cd97187537bf7119b821b
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 24 21:47:11 2025 +0100
+
+    fix server_controller syntax error
+
+commit dade26217a144111081a907b41cdff570b0ea0c4
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 24 20:43:00 2025 +0100
+
+    add dict. validation and crossword layout gen
+
+commit 150af721d292fe1db6d113d2186f8f5eeb5730a5
+Merge: 46a9a88 23dc5bc
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 24 18:10:34 2025 +0100
+
+    merge changes and push: Add dictionary validation and automatic crossword layout generation
+
+commit 23dc5bcea91d8da80152fb2a1b14fb723c61c677
+Author: xuefei <xuefei@xuefeis-MacBook-Pro.local>
+Date:   Thu Apr 24 17:16:45 2025 +0100
+
+    fixed some bugs caused by merging
+
+commit 46a9a88c93b20887512805eaba90963de47e5cc5
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 24 16:55:32 2025 +0100
+
+    Add dictionary validation, dictionary.txt, and auto crossword layout generation
+
+commit fb36d274dfd0fbc6b4237b75273448b8a45683c0
+Author: Christian D’Agostino <christiandagostino@Christians-MacBook-Pro.local>
+Date:   Thu Apr 24 16:18:37 2025 +0100
+
+    add download puzzle feature + button to MenuView
+
+commit ae0dc1085e9b045ca99082b3a2276c7669f1340b
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 24 12:22:05 2025 +0100
+
+    add gitlog.txt
+
+commit c333c9a6e2d2ac8750aecf3f4c9923f6beefc57b
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 24 12:18:39 2025 +0100
+
+    delete old code/ format comments
+
+commit c06028db24dd11bfa23d3978eeef18af8d7ca0ad
+Merge: 02780ab e347cb9
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 24 12:09:06 2025 +0100
+
+    Merge complete: integrate stats view and social features
+
+commit 02780ab65800acfc4ed8343d3c6a0b8d49f1aab1
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 24 11:11:12 2025 +0100
+
+    update game logic
+
+commit 6459cdaa609889b06dd2a6df2902b010b4fc6867
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 24 01:54:28 2025 +0100
+
+    add API & db pytests + requirements file
+
+commit 56cf2f6c635cdddd7eb750c20f90d2f8e6832505
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 24 01:52:52 2025 +0100
+
+    improve MenuView + quick-creator + misc view helpers; add BaseView
+
+commit f1a11f9f59d6bf04ebd2f2f07d5a118af79899b4
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 24 01:49:55 2025 +0100
+
+    MVC refactor — db helper, client/server controllers, protocol constants & multiplayer sockets
+
+commit e347cb9f206aa70434ffef0a0c3cef0fb3a9ed5d
+Merge: 857e1a0 0c082c7
+Author: xuefei <xuefei@xuefeis-MacBook-Pro.local>
+Date:   Thu Apr 24 00:17:07 2025 +0100
+
+    fix some bugs caused by merging
+
+commit 857e1a0a7e546d4f9864cf82719c5bec9c30cb85
+Merge: dfad8a6 767c831
+Author: xuefei <xuefei@xuefeis-MacBook-Pro.local>
+Date:   Thu Apr 24 00:15:05 2025 +0100
+
+    fix some bugs caused by merging
+
+commit 0c082c7de5743b34d25ef189b7dc374d64e90047
+Merge: 6132a4b 767c831
+Author: xuefei <xuefei@xuefeis-MacBook-Pro.local>
+Date:   Wed Apr 23 23:25:36 2025 +0100
+
+    Resolved remaining merge conflicts from origin/main
+
+commit 6132a4b1cd556cc5f1ac7c0e2039964453d70611
+Author: xuefei <xuefei@xuefeis-MacBook-Pro.local>
+Date:   Wed Apr 23 23:10:36 2025 +0100
+
+    add function that allow users to add friends,chat with them and see their activities
+
+commit dfad8a66ac117abf6ebf1980c65795aa37af0ed5
+Merge: 8f9cf3e e175b96
+Author: xuefei <xuefei@xuefeis-MacBook-Pro.local>
+Date:   Wed Apr 23 21:18:42 2025 +0100
+
+    Merge branch 'xuefei-dev'
+    it add new functions.
+
+commit 767c831f0f75c637420d4d26887bab28550d920f
+Merge: 96eb8a0 c9283ee
+Author: Peter Welling <pw81@st-andrews.ac.uk>
+Date:   Wed Apr 23 21:00:40 2025 +0100
+
+    fixed issue for pushing my new code. db: added function to get last puzzle solved. shared: made an endpoint: server:endpoint for server_controller. Client: made function in client_controller and wire into MenuVIew. UI: add botton to menu and created FeedView for scrolling list.
+
+commit 96eb8a0030f40bef326d4a562b6c80f27b8873d1
+Author: Peter Welling <pw81@st-andrews.ac.uk>
+Date:   Wed Apr 23 20:52:15 2025 +0100
+
+    db: added function to get last puzzle solved. shared: made an endpoint: server:endpoint for server_controller. Client: made function in client_controller and wire into MenuVIew. UI: add botton to menu and created FeedView for scrolling list.
+
+commit c9283ee8d1bbfb5889c9e5730bf74e00219cc5dc
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Wed Apr 23 20:17:19 2025 +0100
+
+    debug main.py terminal error - syntax/logic fix
+
+commit 0af56dc03f4774c45d40415d80d5967262411364
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Wed Apr 23 19:55:07 2025 +0100
+
+    update UI; add button for quiz placeholder, quick-create path and active game list
+
+commit e175b9665134b2c76cfe7c45e7b73b329a0dea23
+Author: xuefei <xuefei@xuefeis-MacBook-Pro.local>
+Date:   Wed Apr 23 19:06:09 2025 +0100
+
+    add function that allow users to add friends,chat with them and see their activities
+
+commit 8f9cf3e4e332f23c95a274c41242291e069e8e9d
+Author: xuefei <xuefei@xuefeis-MacBook-Pro.local>
+Date:   Wed Apr 23 19:06:09 2025 +0100
+
+    add function that allow users to add friends,chat with them and see their activities
+
+commit 45d09300010d1e994a3a80a5c0e2a1fc788b2537
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Wed Apr 23 18:53:21 2025 +0100
+
+    view/menu: extend MenuView to
+    to support new buttons and multiplayer list
+
+commit c93031bde87f66e98aeccd60604dede5651ed760
+Merge: ed26354 c74871c
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Tue Apr 22 04:51:51 2025 +0100
+
+    Merge origin/main: archive old client.py under app/legacy
+
+commit ed26354d961104a4b724c3eb7783406cedf6d3f5
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Tue Apr 22 04:41:22 2025 +0100
+
+    abstract code and seperate concerns following MVC architecture. Implement multiple client connections with server
+
+commit c74871c4a2f52fa5286e2746b0ccd0787a203958
+Author: Lexi988 <2899782287@qq.com>
+Date:   Mon Apr 21 08:09:18 2025 +0100
+
+    studentID
+
+commit dd4a6dc63aefb95d60717f2e2cf37d39cbe5cb91
+Author: Lexi988 <2899782287@qq.com>
+Date:   Mon Apr 21 07:58:34 2025 +0100
+
+    front size and studentID
+
+commit 21eb666046ecec83f71efd1fdd0d9ff0621c7cb1
+Merge: 63c790e 72fdd7a
+Author: Lexi988 <2899782287@qq.com>
+Date:   Mon Apr 21 07:56:48 2025 +0100
+
+    Merge branch 'main' of https://github.com/hellolachlan/p3_cs5003_g4
+
+commit 63c790e171003c3c52e6417aecdb2c31d437ebb3
+Author: Lexi988 <2899782287@qq.com>
+Date:   Mon Apr 21 07:56:11 2025 +0100
+
+    front size and studentID
+
+commit 72fdd7a30e3988bc9154e45e422769ef75a38e76
+Author: Peter Welling <pw81@st-andrews.ac.uk>
+Date:   Thu Apr 17 11:26:02 2025 +0100
+
+    answered the requirement of show the user their past results using DB
+
+commit c9228407fa0e90a4c2f83f745161001a3e8646dd
+Author: Peter Welling <pw81@st-andrews.ac.uk>
+Date:   Thu Apr 17 09:48:38 2025 +0100
+
+    Added a feature to save the players score and time after solving puzzle. IT sends players score and tracks how long they took to solve puzzle to server then saves to DB
+
+commit d9cb754cca4e16d59f4fbc5d553516a63e6f9a2c
+Author: hellolachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Sun Apr 13 02:09:21 2025 +0100
+
+    Update README.md
+
+commit c65a38e451e74a6f4413bca19491f03f48d3c607
+Author: Peter Welling <pw81@st-andrews.ac.uk>
+Date:   Sat Apr 12 15:35:16 2025 +0100
+
+    Fixed the timer not stopping problem, added the show puzzle clues automatically, added stats tracking number of puzzles solved
+
+commit d227544b2ebd165f004ca470d2b35afab74608df
+Author: Lexi988 <2899782287@qq.com>
+Date:   Fri Apr 11 15:40:52 2025 +0100
+
+    Add files via upload
+    
+    Server API: a server which allows clients to request services such as logging in, retrieving puzzles, updating puzzles, and processing user data.
+
+commit d5e9b6753a39868679a8d093352d21a9546c1075
+Author: Lexi988 <2899782287@qq.com>
+Date:   Fri Apr 11 15:38:47 2025 +0100
+
+    Add files via upload
+    
+    User Interface: A client-side user interface for user interaction, implemented with Tkinter (or, as an absolute minimum, with curses)
+    The ability to choose a puzzle, show the clues, and fill in a solution
+    The ability to add a new puzzle to the database
+    Database: A database backend for persistent storage of data about users and puzzles.
+    Your choice of additional functionality: a timer, social media features, importing puzzles, or other additional features of your choice and design.
+
+commit c96dca5f1d9dbe3c58f27be538c926425543b2f4
+Author: Lexi988 <2899782287@qq.com>
+Date:   Fri Apr 11 15:22:15 2025 +0100
+
+    Delete app/client/c directory
+
+commit 96d272cb4a2e883028c6036ae78456b937b1b5d2
+Author: Peter Welling <pw81@st-andrews.ac.uk>
+Date:   Thu Apr 10 17:44:23 2025 +0100
+
+    Added a live timer for the game display
+
+commit af25308538c8a88fde6d326dd580cffd1889266a
+Author: Peter Welling <pw81@st-andrews.ac.uk>
+Date:   Thu Apr 10 16:41:56 2025 +0100
+
+    Changed wording in add_user and confirm user
+
+commit ad0021b46166aeda7b3d0b799e144d04815b2423
+Author: hellolachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 10 15:03:03 2025 +0100
+
+    Update README.md to remove db instructions since db is now pushed
+
+commit 4173db8ddb4eba7017aa82d35fdf8b7787c332d3
+Author: Peter Welling <pw81@st-andrews.ac.uk>
+Date:   Thu Apr 10 08:28:06 2025 +0100
+
+    Added user registration and login function
+
+commit 48cb4f7a9d58c25567edce0e3a76e92cf8be7bcd
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Thu Apr 10 00:55:04 2025 +0100
+
+    divide code from ..client/c/code and refactor into modular structure and separated modules
+
+commit ada528b76411f1eaefe55cfbfae7d7bbb66a8c8c
+Author: Lexi988 <2899782287@qq.com>
+Date:   Tue Apr 8 18:52:26 2025 +0100
+
+    Add files via upload
+    
+    use Tkinter √
+    add a new puzzle to the database √
+    choose a puzzle, show the clues, and fill in a solution √
+
+commit 3aadd497a8b7956d89cd7f4498a8d2b582c3fa05
+Author: Lexi988 <2899782287@qq.com>
+Date:   Tue Apr 8 17:56:31 2025 +0100
+
+    Add files via upload
+    
+    first version, 1.need more size of the board 2.how to show clues to user
+
+commit aa94da7f0e4dd72fc684b9dba00e64509b5745f9
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Mon Apr 7 16:55:47 2025 +0100
+
+    Create SQLite database for user credentials in /data/init_db.py and create folder/module directory structure(s)
+
+commit e7bca97c6ba698f07c620e2867296e5c105dd3c6
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Fri Apr 4 17:16:38 2025 +0100
+
+    update gitignore
+
+commit c09b2b9f73c46d8b69475c723657772ae8bbc666
+Author: Lachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Fri Apr 4 16:46:33 2025 +0100
+
+    Create initial folder structure, add .gitignore
+
+commit e0f815753af591cd062172032840e826ed949ae6
+Author: hellolachlan <155920082+hellolachlan@users.noreply.github.com>
+Date:   Fri Apr 4 16:00:44 2025 +0100
+
+    Initial commit

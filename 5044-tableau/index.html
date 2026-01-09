@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Futuristic Smart City Dashboard</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Futuristic Smart City Dashboard</h1>
+  <p>
+    <a href="https://www.kaggle.com/datasets/atharvasoundankar/futuristic-smart-city-citizen-activity-dataset" 
+       target="_blank" 
+       rel="noopener noreferrer">
+      Data source: Kaggle Dataset
+    </a>
+  </p>
+  <p>
+    This is a visualization tool that analyzes carbon footprint emissions based on the activities of urban residents.
+    </a>
+  </p>
+
+  <label>Mode of Transport:
+    <select id="transportFilter">
+      <option value="ALL">ALL</option>
+    </select>
+  </label>
+
+  <label>Gender:
+    <select id="genderFilter">
+      <option value="ALL">ALL</option>
+    </select>
+  </label>
+
+  <label>Age Group:
+    <select id="ageGroupFilter">
+      <option value="ALL">ALL</option>
+    </select>
+  </label>
+
+  <label>Social Media Group Hours:
+    <select id="socialMediaFilter">
+      <option value="ALL">ALL</option>
+    </select>
+  </label>
+
+
+  <div class="dashboard">
+    <div class="chart" id="chart1-container">
+      <h3>Average Carbon Footprint by Transport</h3>
+      <svg id="chart1"></svg>
+    </div>
+    <div class="chart" id="chart2-container">
+      <h3 id="chart2-title">Gender & Carbon Footprint Proportion</h3>
+      <div id = "chart2-nontitle">
+        <svg id="chart2"></svg>
+        <div class="legend" id="genderLegend"></div>
+      </div>
+    </div>
+    <div class="chart" id="chart3-container">
+      <h3>Carbon Footprint by Age</h3>
+      <svg id="chart3"></svg>
+    </div>
+    <div class="chart" id="chart4-container">
+      <h3>Carbon Footprint by Age Group</h3>
+      <svg id="chart4"></svg>
+    </div>
+    <div class="chart" id="chart5-container">
+      <h3>Average Carbon Footprint by Social Media Hours</h3>
+      <svg id="chart5"></svg>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <div id="tooltip" class="tooltip"></div>
+</body>
+</html>
